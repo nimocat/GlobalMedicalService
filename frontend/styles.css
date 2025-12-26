@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "PingFang SC", "Microsoft Yahei", sans-serif;
+  background: #f5f7fb;
+  color: #1f2a44;
+}
+
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 24px 48px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 32px;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: #e0ebff;
+  color: #2d5cff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin: 12px 0 12px;
+}
+
+.subtitle {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.primary {
+  background: #2d5cff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.ghost {
+  background: #e7ecf7;
+  color: #2d5cff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.hero-card {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(23, 43, 77, 0.08);
+}
+
+.hero-card ul {
+  padding-left: 18px;
+  line-height: 1.8;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(23, 43, 77, 0.08);
+}
+
+.helper {
+  color: #5f6c85;
+  margin-bottom: 16px;
+}
+
+.form {
+  display: grid;
+  gap: 12px;
+}
+
+label {
+  display: grid;
+  gap: 6px;
+  font-size: 14px;
+}
+
+input,
+textarea {
+  border: 1px solid #dfe5f0;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.estimate {
+  margin-top: 16px;
+  display: grid;
+  gap: 12px;
+}
+
+.estimate div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7f9ff;
+  padding: 10px 12px;
+  border-radius: 10px;
+}
+
+.plans {
+  display: grid;
+  gap: 10px;
+}
+
+.plan {
+  text-align: left;
+  background: #f7f9ff;
+  border-radius: 12px;
+  padding: 14px;
+  border: 1px solid transparent;
+}
+
+.plan.active {
+  border-color: #2d5cff;
+  background: #eef3ff;
+}
+
+.plan h4 {
+  margin: 0 0 6px;
+}
+
+.plan span {
+  color: #2d5cff;
+  font-size: 12px;
+}
+
+.plan-highlight {
+  margin-top: 16px;
+  background: #1f2a44;
+  color: #fff;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.plan-highlight .highlight {
+  color: #ffe29a;
+}
+
+.list {
+  padding-left: 18px;
+  line-height: 1.8;
+}
+
+.contact-note {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #5f6c85;
+}
+
+footer {
+  text-align: center;
+  color: #7a869a;
+  font-size: 13px;
+  margin-top: 32px;
+}
